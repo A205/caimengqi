@@ -1,32 +1,32 @@
-package BaseDateType;
+ï»¿package BaseDateType;
 
 public class BaseDateType {
 	public static void main(String[] args){
 		   //TODO Auto-generated method stuby
-		   //byteÀàĞÍÊıÖµÎ»ÖÆÒÔ¼°×î´ó×îĞ¡Öµ
-		   System.out.println("»ù±¾ÀàĞÍ£ºbyte¶ş½øÖÆÎ»Êı"+Byte.SIZE);
-		   System.out.println("»ù±¾ÀàĞÍ£ºbyte×î´óÖµ"+Byte.MAX_VALUE);
-		   System.out.println("»ù±¾ÀàĞÍ£ºbyte×îĞ¡Öµ"+Byte.MIN_VALUE);
-		   //floatÀàÊıÖµÎ»ÊıÒÔ¼°×î´ó×îĞ¡Öµ
-		   System.out.println("»ù±¾ÀàĞÍ£ºfloat¶ş½øÖÆÎ»Êı"+Float.SIZE);
-		   System.out.println("»ù±¾ÀàĞÍ£ºfloat×î´óÖµ"+Float.MAX_VALUE);
-		   System.out.println("»ù±¾ÀàĞÍ£ºfloat×îĞ¡Öµ"+Float.MIN_VALUE);
+		   //byteç±»å‹æ•°å€¼ä½åˆ¶ä»¥åŠæœ€å¤§æœ€å°å€¼
+		   System.out.println("åŸºæœ¬ç±»å‹ï¼šbyteäºŒè¿›åˆ¶ä½æ•°"+Byte.SIZE);
+		   System.out.println("åŸºæœ¬ç±»å‹ï¼šbyteæœ€å¤§å€¼"+Byte.MAX_VALUE);
+		   System.out.println("åŸºæœ¬ç±»å‹ï¼šbyteæœ€å°å€¼"+Byte.MIN_VALUE);
+		   //floatç±»æ•°å€¼ä½æ•°ä»¥åŠæœ€å¤§æœ€å°å€¼
+		   System.out.println("åŸºæœ¬ç±»å‹ï¼šfloatäºŒè¿›åˆ¶ä½æ•°"+Float.SIZE);
+		   System.out.println("åŸºæœ¬ç±»å‹ï¼šfloatæœ€å¤§å€¼"+Float.MAX_VALUE);
+		   System.out.println("åŸºæœ¬ç±»å‹ï¼šfloatæœ€å°å€¼"+Float.MIN_VALUE);
 		   
-		   //byteÀàĞÍÊı¾İ
+		   //byteç±»å‹æ•°æ®
 		   byte b=50;
-		   //byte b1=130;//³¬³öbyteÀàĞÍ±íÊ¾µÄÊıÖµ·¶Î§
-		   //float±äÁ¿¸³Öµ
+		   //byte b1=130;//è¶…å‡ºbyteç±»å‹è¡¨ç¤ºçš„æ•°å€¼èŒƒå›´
+		   //floatå˜é‡èµ‹å€¼
 		   float f=10.0f;
-		   //±íÊ¾¸¡µãÀàĞÍµÄÊı¾İ
+		   //è¡¨ç¤ºæµ®ç‚¹ç±»å‹çš„æ•°æ®
 		   
 		   double d=20.0;
 		   
-		   //charÀàĞÍÊı¾İ¸³Öµ
+		   //charç±»å‹æ•°æ®èµ‹å€¼
 		   char ch1='A';
 		   char ch2=65;
 		   System.out.println(ch1+" "+ch2);
 		   
-		   char ch3='ÖĞ';
+		   char ch3='ä¸­';
 		   
 	   }
 }
